@@ -1,0 +1,1 @@
+import{G as s,r as a,e as c}from"./vue-core-BNpZnBRl.js";import{n as u}from"./index-dC5gNn0y.js";const m=s("notice",()=>{const e=a(JSON.parse(JSON.stringify(u))),o=c(()=>e.value.filter(t=>!t.read).length);function r(t){const n=e.value.find(i=>i.id===t);n&&(n.read=!0)}return{notices:e,unreadCount:o,markRead:r}});export{m as u};
